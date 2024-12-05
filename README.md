@@ -37,22 +37,32 @@ A full-stack TODO application built with the PERN stack (PostgreSQL, Express, Re
 
 Make sure you have the following installed:
 
-- Node.js
-- PostgreSQL
+- [Node.js](https://nodejs.org/)
+- [PostgreSQL](https://www.postgresql.org/)
+
 
 ### Clone the Repository
 
 ```bash
 git clone https://github.com/your-username/pern-todo-app.git
+
 cd pern-todo-app
-s://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+```
+Install all the requirment
+```bash
+cd client
+npm install
+```
+```bash
+cd ..
+cd server
+npm install
+```
+start both the server and client usnig below command using below comment
+```bash
+npm start
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
