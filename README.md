@@ -15,9 +15,6 @@ A full-stack TODO application built with the PERN stack (PostgreSQL, Express, Re
 
 
 
-# PERN TODO App
-
-A full-stack TODO application built with the PERN stack (PostgreSQL, Express, React, Node.js). This app allows users to manage tasks with CRUD (Create, Read, Update, Delete) operations, offering a responsive and intuitive user interface. It integrates seamlessly with the backend and the PostgreSQL database.
 
 ## Features
 
